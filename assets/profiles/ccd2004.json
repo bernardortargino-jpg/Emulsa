@@ -1,0 +1,362 @@
+{
+ "kind": "photo",
+ "description": {
+  "pt": "Compacta digital CCD de 5 MP: cores vivas e frias, altas luzes estouradas, nitidez digital.",
+  "en": "5 MP CCD compact: vivid cool colors, clipped highlights, crunchy digital sharpness."
+ },
+ "inspiration": "Compactas digitais com sensor CCD de 1/2,5\" (2003-2008).",
+ "format": {
+  "aspect": [
+   4,
+   3
+  ],
+  "frame": "none",
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "frameColor": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "frameTexture": 0.0,
+  "frameShadow": 0.0,
+  "cornerRadius": 0.0,
+  "maxLongSide": 4096,
+  "sensorMegapixels": 5.0,
+  "multiShot": 1,
+  "forceAccessory": null
+ },
+ "capabilities": {
+  "doubleExposure": true,
+  "temperature": true,
+  "reprocess": true,
+  "flash": true,
+  "dateStamp": true,
+  "accessories": true
+ },
+ "optics": {
+  "recover": {
+   "knee": 0.5,
+   "strength": 0.3
+  },
+  "vignette": {
+   "amount": 0.15,
+   "radius": 1.1,
+   "mechanical": 0.0,
+   "mechanicalRadius": 1.2,
+   "center": [
+    0.0,
+    0.0
+   ]
+  },
+  "distortion": {
+   "k1": 0.0,
+   "k2": 0.0
+  },
+  "ca": 0.0012,
+  "softness": {
+   "center": 0.0,
+   "edge": 0.0,
+   "start": 0.45,
+   "end": 1.0
+  },
+  "bloom": 0.0,
+  "glowSpread": 0.65,
+  "halation": {
+   "amount": 0.0,
+   "threshold": 0.95,
+   "color": [
+    1.0,
+    0.32,
+    0.12
+   ]
+  },
+  "smear": 0.05,
+  "sourceBoost": 4.0
+ },
+ "leaks": {
+  "chance": 0.0,
+  "count": [
+   1,
+   2
+  ],
+  "intensity": [
+   0.0,
+   1.5
+  ],
+  "palette": [
+   [
+    1.0,
+    0.45,
+    0.12
+   ],
+   [
+    1.0,
+    0.22,
+    0.06
+   ],
+   [
+    1.0,
+    0.68,
+    0.3
+   ]
+  ],
+  "size": [
+   0.25,
+   0.65
+  ]
+ },
+ "stamp": {
+  "defaultOn": false,
+  "color": [
+   1.0,
+   0.45,
+   0.08
+  ],
+  "intensity": 2.6,
+  "size": 0.034,
+  "margin": [
+   0.07,
+   0.06
+  ],
+  "format": "'yy M d"
+ },
+ "flash": {
+  "default": false,
+  "gain": 1.5,
+  "ambient": 0.55,
+  "radius": 0.6,
+  "color": [
+   1.0,
+   1.0,
+   1.0
+  ]
+ },
+ "finish": {
+  "sharpen": {
+   "amount": 0.75,
+   "radius": 1.2
+  },
+  "dust": {
+   "count": 0,
+   "size": 0.004,
+   "opacity": 0.6
+  },
+  "dustPolarity": 1,
+  "scratches": {
+   "count": 0,
+   "opacity": 0.3,
+   "width": 0.0012,
+   "drift": 0.002
+  },
+  "dither": 1.0
+ },
+ "video": {
+  "fps": 30,
+  "weave": 0.0,
+  "flicker": 0.0,
+  "drift": 0.0,
+  "vhs": null,
+  "osd": null
+ },
+ "id": "ccd2004",
+ "order": 20,
+ "name": {
+  "pt": "CCD 2004",
+  "en": "CCD 2004"
+ },
+ "category": "ccd",
+ "color": {
+  "model": "digital",
+  "mono": false,
+  "monoWeights": [
+   0.3,
+   0.59,
+   0.11
+  ],
+  "exposure": 0.0,
+  "saturation": 1.15,
+  "crosstalk": [
+   [
+    1.08,
+    -0.06,
+    -0.02
+   ],
+   [
+    -0.04,
+    1.06,
+    -0.02
+   ],
+   [
+    -0.02,
+    -0.1,
+    1.12
+   ]
+  ],
+  "negative": {
+   "gamma": 0.62,
+   "gammaRGB": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "toe": -4.5,
+   "latitude": 11.0,
+   "toeRGB": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "shoulderRGB": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "toeSoft": 1.0,
+   "shoulderSoft": 1.5,
+   "interlayer": 0.15
+  },
+  "print": {
+   "gamma": 2.1,
+   "dmin": 0.06,
+   "dmax": 2.1,
+   "toeSoft": 0.22,
+   "shoulderSoft": 0.28,
+   "midGrey": 0.19,
+   "balance": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "gammaRGB": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "positive": {
+   "gamma": 1.5,
+   "gammaRGB": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dmin": 0.08,
+   "dmax": 3.0,
+   "toeSoft": 0.7,
+   "shoulderSoft": 0.6,
+   "offsetRGB": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "midGrey": 0.18,
+   "balance": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "interlayer": 0.1
+  },
+  "digital": {
+   "clip": 1.0,
+   "knee": 0.02,
+   "contrast": 1.32,
+   "pivot": 0.42,
+   "black": 0.025,
+   "midGrey": 0.2,
+   "balance": [
+    -0.03,
+    0.0,
+    0.06
+   ]
+  },
+  "measured": {
+   "cube": null
+  },
+  "look": {
+   "saturation": 1.08,
+   "vibrance": 0.0,
+   "selective": [
+    {
+     "hue": 265,
+     "width": 35,
+     "hueShift": -15,
+     "sat": 1.1
+    },
+    {
+     "hue": 142,
+     "width": 35,
+     "hueShift": 10,
+     "sat": 1.05
+    },
+    {
+     "hue": 29,
+     "width": 25,
+     "hueShift": -4,
+     "sat": 1.1
+    }
+   ],
+   "splitTone": {
+    "shadows": [
+     1,
+     1,
+     1
+    ],
+    "highlights": [
+     1,
+     1,
+     1
+    ],
+    "strength": 0.0,
+    "balance": 0.0
+   },
+   "fade": 0.0,
+   "white": 1.0,
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "inputMatrix": [
+   [
+    1.21011,
+    -0.17627999999999994,
+    -0.03383
+   ],
+   [
+    -0.07788999999999999,
+    1.11172,
+    -0.03383
+   ],
+   [
+    -0.05488999999999998,
+    -0.22227999999999995,
+    1.2771700000000001
+   ]
+  ]
+ },
+ "grain": {
+  "model": "sensor",
+  "amount": 1.0,
+  "rms": 0.035,
+  "selwyn": 0.5,
+  "shot": 0.003,
+  "read": 0.0035,
+  "size": 0.00042,
+  "chroma": 0.75,
+  "rgb": [
+   1.0,
+   0.9,
+   1.3
+  ],
+  "texture": "sensor",
+  "maxSigma": 2.0
+ },
+ "lut": "ccd2004.elut"
+}

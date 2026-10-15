@@ -1,0 +1,346 @@
+{
+ "kind": "photo",
+ "description": {
+  "pt": "Negativo de consumo com verdes intensos, sombras frias esverdeadas e azuis limpos.",
+  "en": "Consumer negative with lush greens, cool greenish shadows and clean blues."
+ },
+ "inspiration": "Características públicas de negativos de consumo ISO 400 de tendência fria/verde.",
+ "format": {
+  "aspect": [
+   3,
+   2
+  ],
+  "frame": "none",
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "frameColor": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "frameTexture": 0.0,
+  "frameShadow": 0.0,
+  "cornerRadius": 0.0,
+  "maxLongSide": 4096,
+  "sensorMegapixels": 0.0,
+  "multiShot": 1,
+  "forceAccessory": null
+ },
+ "capabilities": {
+  "doubleExposure": true,
+  "temperature": true,
+  "reprocess": true,
+  "flash": true,
+  "dateStamp": true,
+  "accessories": true
+ },
+ "optics": {
+  "recover": {
+   "knee": 0.5,
+   "strength": 0.55
+  },
+  "vignette": {
+   "amount": 0.3,
+   "radius": 1.15,
+   "mechanical": 0.0,
+   "mechanicalRadius": 1.2,
+   "center": [
+    0.0,
+    0.0
+   ]
+  },
+  "distortion": {
+   "k1": 0.0,
+   "k2": 0.0
+  },
+  "ca": 0.0,
+  "softness": {
+   "center": 0.0,
+   "edge": 0.0,
+   "start": 0.45,
+   "end": 1.0
+  },
+  "bloom": 0.0,
+  "glowSpread": 0.65,
+  "halation": {
+   "amount": 0.15,
+   "threshold": 0.9,
+   "color": [
+    1.0,
+    0.32,
+    0.12
+   ]
+  },
+  "smear": 0.0,
+  "sourceBoost": 4.0
+ },
+ "leaks": {
+  "chance": 0.12,
+  "count": [
+   1,
+   2
+  ],
+  "intensity": [
+   0.0,
+   1.5
+  ],
+  "palette": [
+   [
+    1.0,
+    0.45,
+    0.12
+   ],
+   [
+    1.0,
+    0.22,
+    0.06
+   ],
+   [
+    1.0,
+    0.68,
+    0.3
+   ]
+  ],
+  "size": [
+   0.25,
+   0.65
+  ]
+ },
+ "stamp": {
+  "defaultOn": false,
+  "color": [
+   1.0,
+   0.3,
+   0.05
+  ],
+  "intensity": 3.2,
+  "size": 0.034,
+  "margin": [
+   0.07,
+   0.06
+  ],
+  "format": "'yy M d"
+ },
+ "flash": {
+  "default": false,
+  "gain": 1.5,
+  "ambient": 0.55,
+  "radius": 0.6,
+  "color": [
+   1.0,
+   1.0,
+   1.0
+  ]
+ },
+ "finish": {
+  "sharpen": {
+   "amount": 0.0,
+   "radius": 1.0
+  },
+  "dust": {
+   "count": 0,
+   "size": 0.004,
+   "opacity": 0.6
+  },
+  "dustPolarity": 1,
+  "scratches": {
+   "count": 0,
+   "opacity": 0.3,
+   "width": 0.0012,
+   "drift": 0.002
+  },
+  "dither": 1.0
+ },
+ "video": {
+  "fps": 30,
+  "weave": 0.0,
+  "flicker": 0.0,
+  "drift": 0.0,
+  "vhs": null,
+  "osd": null
+ },
+ "id": "mata400",
+ "order": 3,
+ "name": {
+  "pt": "Mata 400",
+  "en": "Forest 400"
+ },
+ "category": "film35",
+ "color": {
+  "model": "negative",
+  "mono": false,
+  "monoWeights": [
+   0.3,
+   0.59,
+   0.11
+  ],
+  "exposure": 0.2,
+  "saturation": 1.08,
+  "crosstalk": null,
+  "negative": {
+   "gamma": 0.62,
+   "gammaRGB": [
+    0.98,
+    1.02,
+    1.02
+   ],
+   "toe": -4.5,
+   "latitude": 11.0,
+   "toeRGB": [
+    0.25,
+    -0.35,
+    0.05
+   ],
+   "shoulderRGB": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "toeSoft": 1.0,
+   "shoulderSoft": 1.5,
+   "interlayer": 0.25
+  },
+  "print": {
+   "gamma": 2.15,
+   "dmin": 0.06,
+   "dmax": 2.1,
+   "toeSoft": 0.22,
+   "shoulderSoft": 0.28,
+   "midGrey": 0.19,
+   "balance": [
+    -0.05,
+    0.03,
+    0.05
+   ],
+   "gammaRGB": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "positive": {
+   "gamma": 1.5,
+   "gammaRGB": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dmin": 0.08,
+   "dmax": 3.0,
+   "toeSoft": 0.7,
+   "shoulderSoft": 0.6,
+   "offsetRGB": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "midGrey": 0.18,
+   "balance": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "interlayer": 0.1
+  },
+  "digital": {
+   "clip": 1.0,
+   "knee": 0.03,
+   "contrast": 1.25,
+   "pivot": 0.42,
+   "black": 0.02,
+   "midGrey": 0.19,
+   "balance": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "measured": {
+   "cube": null
+  },
+  "look": {
+   "saturation": 1.0,
+   "vibrance": 0.0,
+   "selective": [
+    {
+     "hue": 142,
+     "width": 35,
+     "hueShift": -4,
+     "sat": 1.15
+    },
+    {
+     "hue": 265,
+     "width": 30,
+     "hueShift": -6,
+     "sat": 1.05
+    },
+    {
+     "hue": 30,
+     "width": 25,
+     "hueShift": 4,
+     "sat": 0.95
+    }
+   ],
+   "splitTone": {
+    "shadows": [
+     1,
+     1,
+     1
+    ],
+    "highlights": [
+     1,
+     1,
+     1
+    ],
+    "strength": 0.0,
+    "balance": 0.0
+   },
+   "fade": 0.0,
+   "white": 1.0,
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "inputMatrix": [
+   [
+    1.0629920000000002,
+    -0.057216000000000045,
+    -0.005776000000000005
+   ],
+   [
+    -0.017008000000000016,
+    1.0227840000000001,
+    -0.005776000000000005
+   ],
+   [
+    -0.017008000000000016,
+    -0.057216000000000045,
+    1.074224
+   ]
+  ]
+ },
+ "grain": {
+  "model": "film",
+  "amount": 1.0,
+  "rms": 0.034,
+  "selwyn": 0.5,
+  "shot": 0.004,
+  "read": 0.004,
+  "size": 0.0006,
+  "chroma": 0.5,
+  "rgb": [
+   1.0,
+   1.0,
+   1.15
+  ],
+  "texture": "film",
+  "maxSigma": 1.5
+ },
+ "lut": "mata400.elut"
+}

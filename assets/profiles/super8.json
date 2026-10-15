@@ -1,0 +1,327 @@
+{
+ "kind": "video",
+ "description": {
+  "pt": "Filme reversível 8 mm a 18 quadros/s: grão grande, tremor de quadro, cintilação, moldura arredondada.",
+  "en": "8mm reversal film at 18 fps: big grain, gate weave, flicker, rounded gate."
+ },
+ "inspiration": "Cartuchos Super 8 de filme reversível colorido projetados e telecinados.",
+ "format": {
+  "aspect": [
+   4,
+   3
+  ],
+  "frame": "super8",
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "frameColor": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "frameTexture": 0.0,
+  "frameShadow": 0.0,
+  "cornerRadius": 0.07,
+  "maxLongSide": 4096,
+  "sensorMegapixels": 0.0,
+  "multiShot": 1,
+  "forceAccessory": null
+ },
+ "capabilities": {
+  "doubleExposure": true,
+  "temperature": true,
+  "reprocess": true,
+  "flash": true,
+  "dateStamp": true,
+  "accessories": true
+ },
+ "optics": {
+  "recover": {
+   "knee": 0.5,
+   "strength": 0.55
+  },
+  "vignette": {
+   "amount": 0.5,
+   "radius": 0.95,
+   "mechanical": 0.0,
+   "mechanicalRadius": 1.2,
+   "center": [
+    0.0,
+    0.0
+   ]
+  },
+  "distortion": {
+   "k1": 0.0,
+   "k2": 0.0
+  },
+  "ca": 0.0,
+  "softness": {
+   "center": 0.15,
+   "edge": 0.45,
+   "start": 0.45,
+   "end": 1.0
+  },
+  "bloom": 0.08,
+  "glowSpread": 0.65,
+  "halation": {
+   "amount": 0.25,
+   "threshold": 0.8,
+   "color": [
+    1.0,
+    0.32,
+    0.12
+   ]
+  },
+  "smear": 0.0,
+  "sourceBoost": 4.0
+ },
+ "leaks": {
+  "chance": 0.35,
+  "count": [
+   1,
+   2
+  ],
+  "intensity": [
+   0.5,
+   2.5
+  ],
+  "palette": [
+   [
+    1.0,
+    0.45,
+    0.12
+   ],
+   [
+    1.0,
+    0.22,
+    0.06
+   ],
+   [
+    1.0,
+    0.68,
+    0.3
+   ]
+  ],
+  "size": [
+   0.4,
+   0.9
+  ]
+ },
+ "stamp": {
+  "defaultOn": false,
+  "color": [
+   1.0,
+   0.3,
+   0.05
+  ],
+  "intensity": 3.2,
+  "size": 0.034,
+  "margin": [
+   0.07,
+   0.06
+  ],
+  "format": "'yy M d"
+ },
+ "flash": {
+  "default": false,
+  "gain": 1.5,
+  "ambient": 0.55,
+  "radius": 0.6,
+  "color": [
+   1.0,
+   1.0,
+   1.0
+  ]
+ },
+ "finish": {
+  "sharpen": {
+   "amount": 0.0,
+   "radius": 1.0
+  },
+  "dust": {
+   "count": 4,
+   "size": 0.006,
+   "opacity": 0.75
+  },
+  "dustPolarity": -1,
+  "scratches": {
+   "count": 1,
+   "opacity": 0.35,
+   "width": 0.0018,
+   "drift": 0.003
+  },
+  "dither": 1.0
+ },
+ "video": {
+  "fps": 18,
+  "weave": 0.004,
+  "flicker": 0.05,
+  "drift": 0.08,
+  "vhs": null,
+  "osd": null
+ },
+ "id": "super8",
+ "order": 30,
+ "name": {
+  "pt": "Super 8",
+  "en": "Super 8"
+ },
+ "category": "video8",
+ "color": {
+  "model": "positive",
+  "mono": false,
+  "monoWeights": [
+   0.3,
+   0.59,
+   0.11
+  ],
+  "exposure": 0.0,
+  "saturation": 1.1,
+  "crosstalk": null,
+  "negative": {
+   "gamma": 0.62,
+   "gammaRGB": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "toe": -4.5,
+   "latitude": 11.0,
+   "toeRGB": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "shoulderRGB": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "toeSoft": 1.0,
+   "shoulderSoft": 1.5,
+   "interlayer": 0.15
+  },
+  "print": {
+   "gamma": 2.1,
+   "dmin": 0.06,
+   "dmax": 2.1,
+   "toeSoft": 0.22,
+   "shoulderSoft": 0.28,
+   "midGrey": 0.19,
+   "balance": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "gammaRGB": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "positive": {
+   "gamma": 1.5,
+   "gammaRGB": [
+    1.0,
+    1.02,
+    1.05
+   ],
+   "dmin": 0.08,
+   "dmax": 3.0,
+   "toeSoft": 0.7,
+   "shoulderSoft": 0.6,
+   "offsetRGB": [
+    0.15,
+    0.0,
+    -0.2
+   ],
+   "midGrey": 0.18,
+   "balance": [
+    0.05,
+    0.0,
+    -0.1
+   ],
+   "interlayer": 0.18
+  },
+  "digital": {
+   "clip": 1.0,
+   "knee": 0.03,
+   "contrast": 1.25,
+   "pivot": 0.42,
+   "black": 0.02,
+   "midGrey": 0.19,
+   "balance": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "measured": {
+   "cube": null
+  },
+  "look": {
+   "saturation": 1.05,
+   "vibrance": 0.0,
+   "selective": [],
+   "splitTone": {
+    "shadows": [
+     1.0,
+     1.0,
+     1.04
+    ],
+    "highlights": [
+     1.05,
+     1.0,
+     0.92
+    ],
+    "strength": 0.8,
+    "balance": 0.0
+   },
+   "fade": 0.0,
+   "white": 1.0,
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "inputMatrix": [
+   [
+    1.07874,
+    -0.07152000000000006,
+    -0.007220000000000007
+   ],
+   [
+    -0.02126000000000002,
+    1.02848,
+    -0.007220000000000007
+   ],
+   [
+    -0.02126000000000002,
+    -0.07152000000000006,
+    1.09278
+   ]
+  ]
+ },
+ "grain": {
+  "model": "film",
+  "amount": 1.0,
+  "rms": 0.04,
+  "selwyn": 0.5,
+  "shot": 0.004,
+  "read": 0.004,
+  "size": 0.003,
+  "chroma": 0.5,
+  "rgb": [
+   1.0,
+   1.0,
+   1.15
+  ],
+  "texture": "film",
+  "maxSigma": 1.5
+ },
+ "lut": "super8.elut"
+}

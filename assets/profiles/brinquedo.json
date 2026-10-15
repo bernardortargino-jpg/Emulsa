@@ -1,0 +1,327 @@
+{
+ "kind": "photo",
+ "description": {
+  "pt": "Câmera de plástico de médio formato: vinheta escura, foco suave nas bordas, vazamentos de luz.",
+  "en": "Plastic medium-format toy camera: dark vignette, soft edges, light leaks."
+ },
+ "inspiration": "Câmeras de brinquedo 120 com lente plástica e corpo sujeito a vazamentos de luz.",
+ "format": {
+  "aspect": [
+   1,
+   1
+  ],
+  "frame": "none",
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "frameColor": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "frameTexture": 0.0,
+  "frameShadow": 0.0,
+  "cornerRadius": 0.0,
+  "maxLongSide": 4096,
+  "sensorMegapixels": 0.0,
+  "multiShot": 1,
+  "forceAccessory": null
+ },
+ "capabilities": {
+  "doubleExposure": true,
+  "temperature": true,
+  "reprocess": true,
+  "flash": true,
+  "dateStamp": true,
+  "accessories": true
+ },
+ "optics": {
+  "recover": {
+   "knee": 0.5,
+   "strength": 0.55
+  },
+  "vignette": {
+   "amount": 0.75,
+   "radius": 0.85,
+   "mechanical": 0.55,
+   "mechanicalRadius": 1.18,
+   "center": [
+    0.02,
+    -0.01
+   ]
+  },
+  "distortion": {
+   "k1": 0.05,
+   "k2": 0.0
+  },
+  "ca": 0.0025,
+  "softness": {
+   "center": 0.15,
+   "edge": 0.85,
+   "start": 0.25,
+   "end": 0.95
+  },
+  "bloom": 0.08,
+  "glowSpread": 0.65,
+  "halation": {
+   "amount": 0.2,
+   "threshold": 0.9,
+   "color": [
+    1.0,
+    0.32,
+    0.12
+   ]
+  },
+  "smear": 0.0,
+  "sourceBoost": 4.0
+ },
+ "leaks": {
+  "chance": 0.55,
+  "count": [
+   1,
+   3
+  ],
+  "intensity": [
+   0.8,
+   2.4
+  ],
+  "palette": [
+   [
+    1.0,
+    0.45,
+    0.12
+   ],
+   [
+    1.0,
+    0.22,
+    0.06
+   ],
+   [
+    1.0,
+    0.68,
+    0.3
+   ]
+  ],
+  "size": [
+   0.25,
+   0.65
+  ]
+ },
+ "stamp": {
+  "defaultOn": false,
+  "color": [
+   1.0,
+   0.3,
+   0.05
+  ],
+  "intensity": 3.2,
+  "size": 0.034,
+  "margin": [
+   0.07,
+   0.06
+  ],
+  "format": "'yy M d"
+ },
+ "flash": {
+  "default": false,
+  "gain": 1.5,
+  "ambient": 0.55,
+  "radius": 0.6,
+  "color": [
+   1.0,
+   1.0,
+   1.0
+  ]
+ },
+ "finish": {
+  "sharpen": {
+   "amount": 0.0,
+   "radius": 1.0
+  },
+  "dust": {
+   "count": 0,
+   "size": 0.004,
+   "opacity": 0.6
+  },
+  "dustPolarity": 1,
+  "scratches": {
+   "count": 0,
+   "opacity": 0.3,
+   "width": 0.0012,
+   "drift": 0.002
+  },
+  "dither": 1.0
+ },
+ "video": {
+  "fps": 30,
+  "weave": 0.0,
+  "flicker": 0.0,
+  "drift": 0.0,
+  "vhs": null,
+  "osd": null
+ },
+ "id": "brinquedo",
+ "order": 12,
+ "name": {
+  "pt": "Brinquedo 120",
+  "en": "Toy 120"
+ },
+ "category": "toy",
+ "color": {
+  "model": "negative",
+  "mono": false,
+  "monoWeights": [
+   0.3,
+   0.59,
+   0.11
+  ],
+  "exposure": -0.2,
+  "saturation": 1.2,
+  "crosstalk": null,
+  "negative": {
+   "gamma": 0.68,
+   "gammaRGB": [
+    1.04,
+    1.0,
+    0.94
+   ],
+   "toe": -4.5,
+   "latitude": 11.0,
+   "toeRGB": [
+    -0.2,
+    0.0,
+    0.4
+   ],
+   "shoulderRGB": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "toeSoft": 1.0,
+   "shoulderSoft": 1.5,
+   "interlayer": 0.3
+  },
+  "print": {
+   "gamma": 2.45,
+   "dmin": 0.06,
+   "dmax": 2.1,
+   "toeSoft": 0.22,
+   "shoulderSoft": 0.28,
+   "midGrey": 0.19,
+   "balance": [
+    0.08,
+    0.04,
+    -0.14
+   ],
+   "gammaRGB": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "positive": {
+   "gamma": 1.5,
+   "gammaRGB": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dmin": 0.08,
+   "dmax": 3.0,
+   "toeSoft": 0.7,
+   "shoulderSoft": 0.6,
+   "offsetRGB": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "midGrey": 0.18,
+   "balance": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "interlayer": 0.1
+  },
+  "digital": {
+   "clip": 1.0,
+   "knee": 0.03,
+   "contrast": 1.25,
+   "pivot": 0.42,
+   "black": 0.02,
+   "midGrey": 0.19,
+   "balance": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "measured": {
+   "cube": null
+  },
+  "look": {
+   "saturation": 1.12,
+   "vibrance": 0.0,
+   "selective": [],
+   "splitTone": {
+    "shadows": [
+     1,
+     1,
+     1
+    ],
+    "highlights": [
+     1,
+     1,
+     1
+    ],
+    "strength": 0.0,
+    "balance": 0.0
+   },
+   "fade": 0.0,
+   "white": 1.0,
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "inputMatrix": [
+   [
+    1.15748,
+    -0.14303999999999994,
+    -0.014439999999999996
+   ],
+   [
+    -0.042519999999999995,
+    1.0569600000000001,
+    -0.014439999999999996
+   ],
+   [
+    -0.042519999999999995,
+    -0.14303999999999994,
+    1.18556
+   ]
+  ]
+ },
+ "grain": {
+  "model": "film",
+  "amount": 1.0,
+  "rms": 0.038,
+  "selwyn": 0.5,
+  "shot": 0.004,
+  "read": 0.004,
+  "size": 0.00045,
+  "chroma": 0.5,
+  "rgb": [
+   1.0,
+   1.0,
+   1.15
+  ],
+  "texture": "film",
+  "maxSigma": 1.5
+ },
+ "lut": "brinquedo.elut"
+}

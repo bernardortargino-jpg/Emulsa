@@ -1,0 +1,344 @@
+{
+ "kind": "photo",
+ "description": {
+  "pt": "Cromo (filme reversível) de alta saturação: azuis profundos, pretos densos, latitude curta.",
+  "en": "High-saturation reversal (slide) film: deep blues, dense blacks, short latitude."
+ },
+ "inspiration": "Características públicas de filmes reversíveis ISO 50-100 de alta saturação.",
+ "format": {
+  "aspect": [
+   3,
+   2
+  ],
+  "frame": "none",
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "frameColor": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "frameTexture": 0.0,
+  "frameShadow": 0.0,
+  "cornerRadius": 0.0,
+  "maxLongSide": 4096,
+  "sensorMegapixels": 0.0,
+  "multiShot": 1,
+  "forceAccessory": null
+ },
+ "capabilities": {
+  "doubleExposure": true,
+  "temperature": true,
+  "reprocess": true,
+  "flash": true,
+  "dateStamp": true,
+  "accessories": true
+ },
+ "optics": {
+  "recover": {
+   "knee": 0.5,
+   "strength": 0.55
+  },
+  "vignette": {
+   "amount": 0.25,
+   "radius": 1.1,
+   "mechanical": 0.0,
+   "mechanicalRadius": 1.2,
+   "center": [
+    0.0,
+    0.0
+   ]
+  },
+  "distortion": {
+   "k1": 0.0,
+   "k2": 0.0
+  },
+  "ca": 0.0,
+  "softness": {
+   "center": 0.0,
+   "edge": 0.0,
+   "start": 0.45,
+   "end": 1.0
+  },
+  "bloom": 0.0,
+  "glowSpread": 0.65,
+  "halation": {
+   "amount": 0.05,
+   "threshold": 0.9,
+   "color": [
+    1.0,
+    0.32,
+    0.12
+   ]
+  },
+  "smear": 0.0,
+  "sourceBoost": 4.0
+ },
+ "leaks": {
+  "chance": 0.0,
+  "count": [
+   1,
+   2
+  ],
+  "intensity": [
+   0.0,
+   1.5
+  ],
+  "palette": [
+   [
+    1.0,
+    0.45,
+    0.12
+   ],
+   [
+    1.0,
+    0.22,
+    0.06
+   ],
+   [
+    1.0,
+    0.68,
+    0.3
+   ]
+  ],
+  "size": [
+   0.25,
+   0.65
+  ]
+ },
+ "stamp": {
+  "defaultOn": false,
+  "color": [
+   1.0,
+   0.3,
+   0.05
+  ],
+  "intensity": 3.2,
+  "size": 0.034,
+  "margin": [
+   0.07,
+   0.06
+  ],
+  "format": "'yy M d"
+ },
+ "flash": {
+  "default": false,
+  "gain": 1.5,
+  "ambient": 0.55,
+  "radius": 0.6,
+  "color": [
+   1.0,
+   1.0,
+   1.0
+  ]
+ },
+ "finish": {
+  "sharpen": {
+   "amount": 0.0,
+   "radius": 1.0
+  },
+  "dust": {
+   "count": 2,
+   "size": 0.003,
+   "opacity": 0.7
+  },
+  "dustPolarity": -1,
+  "scratches": {
+   "count": 0,
+   "opacity": 0.3,
+   "width": 0.0012,
+   "drift": 0.002
+  },
+  "dither": 1.0
+ },
+ "video": {
+  "fps": 30,
+  "weave": 0.0,
+  "flicker": 0.0,
+  "drift": 0.0,
+  "vhs": null,
+  "osd": null
+ },
+ "id": "diapo100",
+ "order": 7,
+ "name": {
+  "pt": "Diapo 100",
+  "en": "Slide 100"
+ },
+ "category": "slide",
+ "color": {
+  "model": "positive",
+  "mono": false,
+  "monoWeights": [
+   0.3,
+   0.59,
+   0.11
+  ],
+  "exposure": -0.2,
+  "saturation": 1.04,
+  "crosstalk": null,
+  "negative": {
+   "gamma": 0.62,
+   "gammaRGB": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "toe": -4.5,
+   "latitude": 11.0,
+   "toeRGB": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "shoulderRGB": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "toeSoft": 1.0,
+   "shoulderSoft": 1.5,
+   "interlayer": 0.15
+  },
+  "print": {
+   "gamma": 2.1,
+   "dmin": 0.06,
+   "dmax": 2.1,
+   "toeSoft": 0.22,
+   "shoulderSoft": 0.28,
+   "midGrey": 0.19,
+   "balance": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "gammaRGB": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "positive": {
+   "gamma": 1.62,
+   "gammaRGB": [
+    1.0,
+    1.02,
+    1.04
+   ],
+   "dmin": 0.08,
+   "dmax": 3.2,
+   "toeSoft": 0.7,
+   "shoulderSoft": 0.6,
+   "offsetRGB": [
+    0.0,
+    0.05,
+    -0.1
+   ],
+   "midGrey": 0.18,
+   "balance": [
+    0.0,
+    0.0,
+    0.04
+   ],
+   "interlayer": 0.14
+  },
+  "digital": {
+   "clip": 1.0,
+   "knee": 0.03,
+   "contrast": 1.25,
+   "pivot": 0.42,
+   "black": 0.02,
+   "midGrey": 0.19,
+   "balance": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "measured": {
+   "cube": null
+  },
+  "look": {
+   "saturation": 1.0,
+   "vibrance": 0.0,
+   "selective": [
+    {
+     "hue": 265,
+     "width": 35,
+     "hueShift": -8,
+     "sat": 1.15
+    },
+    {
+     "hue": 142,
+     "width": 30,
+     "sat": 1.1
+    },
+    {
+     "hue": 29,
+     "width": 25,
+     "sat": 1.08
+    }
+   ],
+   "splitTone": {
+    "shadows": [
+     1,
+     1,
+     1
+    ],
+    "highlights": [
+     1,
+     1,
+     1
+    ],
+    "strength": 0.0,
+    "balance": 0.0
+   },
+   "fade": 0.0,
+   "white": 1.0,
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "inputMatrix": [
+   [
+    1.031496,
+    -0.028608000000000022,
+    -0.0028880000000000025
+   ],
+   [
+    -0.008504000000000008,
+    1.011392,
+    -0.0028880000000000025
+   ],
+   [
+    -0.008504000000000008,
+    -0.028608000000000022,
+    1.037112
+   ]
+  ]
+ },
+ "grain": {
+  "model": "film",
+  "amount": 1.0,
+  "rms": 0.016,
+  "selwyn": 0.5,
+  "shot": 0.004,
+  "read": 0.004,
+  "size": 0.0004,
+  "chroma": 0.4,
+  "rgb": [
+   1.0,
+   1.0,
+   1.15
+  ],
+  "texture": "film",
+  "maxSigma": 1.5
+ },
+ "lut": "diapo100.elut"
+}

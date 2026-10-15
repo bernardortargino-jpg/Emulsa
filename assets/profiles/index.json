@@ -1,0 +1,397 @@
+{
+ "version": 1,
+ "profiles": [
+  {
+   "id": "sol200",
+   "name": {
+    "pt": "Sol 200",
+    "en": "Sol 200"
+   },
+   "category": "film35",
+   "kind": "photo",
+   "description": {
+    "pt": "Negativo colorido de consumo ISO 200: quente, amarelos dourados, contraste de cópia de laboratório.",
+    "en": "Consumer ISO 200 color negative: warm, golden yellows, lab-print contrast."
+   },
+   "badge": ""
+  },
+  {
+   "id": "retrato400",
+   "name": {
+    "pt": "Retrato 400",
+    "en": "Portrait 400"
+   },
+   "category": "film35",
+   "kind": "photo",
+   "description": {
+    "pt": "Negativo profissional de retrato: tons de pele suaves, contraste baixo, grão fino, cores pastéis.",
+    "en": "Professional portrait negative: soft skin tones, low contrast, fine grain, pastel colors."
+   },
+   "badge": ""
+  },
+  {
+   "id": "mata400",
+   "name": {
+    "pt": "Mata 400",
+    "en": "Forest 400"
+   },
+   "category": "film35",
+   "kind": "photo",
+   "description": {
+    "pt": "Negativo de consumo com verdes intensos, sombras frias esverdeadas e azuis limpos.",
+    "en": "Consumer negative with lush greens, cool greenish shadows and clean blues."
+   },
+   "badge": ""
+  },
+  {
+   "id": "cine500t",
+   "name": {
+    "pt": "Cine 500T",
+    "en": "Cine 500T"
+   },
+   "category": "film35",
+   "kind": "photo",
+   "description": {
+    "pt": "Filme de cinema tungstênio sem camada anti-halo: auréola vermelha nas luzes, sombras azul-petróleo.",
+    "en": "Tungsten motion-picture stock without anti-halation backing: red glow around lights, teal shadows."
+   },
+   "badge": ""
+  },
+  {
+   "id": "medio67",
+   "name": {
+    "pt": "Médio 6x7",
+    "en": "Medium 6x7"
+   },
+   "category": "film120",
+   "kind": "photo",
+   "description": {
+    "pt": "Médio formato 6x7 para retrato: grão finíssimo, transições suaves, borda do negativo.",
+    "en": "6x7 medium format for portraits: ultra-fine grain, smooth transitions, negative rebate."
+   },
+   "badge": ""
+  },
+  {
+   "id": "tlr66",
+   "name": {
+    "pt": "Quadrado 6x6",
+    "en": "Square 6x6"
+   },
+   "category": "film120",
+   "kind": "photo",
+   "description": {
+    "pt": "Bi-objetiva 6x6: formato quadrado, cores ricas, vinheta suave da lente antiga.",
+    "en": "6x6 twin-lens reflex: square format, rich colors, gentle vintage-lens vignette."
+   },
+   "badge": ""
+  },
+  {
+   "id": "brinquedo",
+   "name": {
+    "pt": "Brinquedo 120",
+    "en": "Toy 120"
+   },
+   "category": "toy",
+   "kind": "photo",
+   "description": {
+    "pt": "Câmera de plástico de médio formato: vinheta escura, foco suave nas bordas, vazamentos de luz.",
+    "en": "Plastic medium-format toy camera: dark vignette, soft edges, light leaks."
+   },
+   "badge": ""
+  },
+  {
+   "id": "panoramica",
+   "name": {
+    "pt": "Panorâmica 35",
+    "en": "Panoramic 35"
+   },
+   "category": "toy",
+   "kind": "photo",
+   "description": {
+    "pt": "Panorâmica que expõe o filme inteiro, inclusive as perfurações.",
+    "en": "Panoramic camera exposing the whole film width, sprocket holes included."
+   },
+   "badge": ""
+  },
+  {
+   "id": "diapo100",
+   "name": {
+    "pt": "Diapo 100",
+    "en": "Slide 100"
+   },
+   "category": "slide",
+   "kind": "photo",
+   "description": {
+    "pt": "Cromo (filme reversível) de alta saturação: azuis profundos, pretos densos, latitude curta.",
+    "en": "High-saturation reversal (slide) film: deep blues, dense blacks, short latitude."
+   },
+   "badge": ""
+  },
+  {
+   "id": "meioquadro",
+   "name": {
+    "pt": "Meio-Quadro",
+    "en": "Half Frame"
+   },
+   "category": "halfframe",
+   "kind": "photo",
+   "description": {
+    "pt": "Duas fotos verticais lado a lado no mesmo quadro de 35 mm.",
+    "en": "Two vertical shots side by side in one 35mm frame."
+   },
+   "badge": ""
+  },
+  {
+   "id": "instantmini",
+   "name": {
+    "pt": "Instante Mini",
+    "en": "Instant Mini"
+   },
+   "category": "instant",
+   "kind": "photo",
+   "description": {
+    "pt": "Filme instantâneo tamanho cartão: tons claros, sombras frias, borda branca.",
+    "en": "Credit-card instant film: bright tones, cool shadows, white border."
+   },
+   "badge": ""
+  },
+  {
+   "id": "instantquad",
+   "name": {
+    "pt": "Instante Quadrado",
+    "en": "Instant Square"
+   },
+   "category": "instant",
+   "kind": "photo",
+   "description": {
+    "pt": "Filme instantâneo quadrado: cores delicadas e moldura com faixa inferior.",
+    "en": "Square instant film: delicate colors and a frame with a deep bottom edge."
+   },
+   "badge": ""
+  },
+  {
+   "id": "integral600",
+   "name": {
+    "pt": "Integral 600",
+    "en": "Integral 600"
+   },
+   "category": "instant",
+   "kind": "photo",
+   "description": {
+    "pt": "Instantânea integral clássica: cores desbotadas e quentes, pretos leitosos, moldura larga.",
+    "en": "Classic integral instant: faded warm colors, milky blacks, wide frame."
+   },
+   "badge": ""
+  },
+  {
+   "id": "estereo4",
+   "name": {
+    "pt": "Estéreo 4L",
+    "en": "Stereo 4L"
+   },
+   "category": "stereo3d",
+   "kind": "photo",
+   "description": {
+    "pt": "Câmera 3D de quatro lentes: quatro vistas que viram uma animação em vaivém.",
+    "en": "Four-lens 3D camera: four views that become a wiggle animation."
+   },
+   "badge": ""
+  },
+  {
+   "id": "descartavel",
+   "name": {
+    "pt": "Descartável 800",
+    "en": "Disposable 800"
+   },
+   "category": "disposable",
+   "kind": "photo",
+   "description": {
+    "pt": "Câmera descartável de lente plástica e filme ISO 800: grão grosso, cantos moles, cores saturadas.",
+    "en": "Plastic-lens single-use camera with ISO 800 film: coarse grain, soft corners, saturated colors."
+   },
+   "badge": ""
+  },
+  {
+   "id": "ccd2004",
+   "name": {
+    "pt": "CCD 2004",
+    "en": "CCD 2004"
+   },
+   "category": "ccd",
+   "kind": "photo",
+   "description": {
+    "pt": "Compacta digital CCD de 5 MP: cores vivas e frias, altas luzes estouradas, nitidez digital.",
+    "en": "5 MP CCD compact: vivid cool colors, clipped highlights, crunchy digital sharpness."
+   },
+   "badge": ""
+  },
+  {
+   "id": "digital2001",
+   "name": {
+    "pt": "Digital 2001",
+    "en": "Digital 2001"
+   },
+   "category": "ccd",
+   "kind": "photo",
+   "description": {
+    "pt": "Primeira geração digital de 2 MP: baixa resolução, franja roxa, verdes amarelados.",
+    "en": "First-generation 2 MP digital: low resolution, purple fringing, yellowish greens."
+   },
+   "badge": ""
+  },
+  {
+   "id": "compacta",
+   "name": {
+    "pt": "Compacta 35",
+    "en": "Compact 35"
+   },
+   "category": "compact",
+   "kind": "photo",
+   "description": {
+    "pt": "Compacta automática dos anos 90 com data impressa: cores quentes e vivas, flash pronto.",
+    "en": "90s automatic point-and-shoot with date back: warm vivid colors, flash ready."
+   },
+   "badge": ""
+  },
+  {
+   "id": "ccdnoite",
+   "name": {
+    "pt": "CCD Noite",
+    "en": "CCD Night"
+   },
+   "category": "compact",
+   "kind": "photo",
+   "description": {
+    "pt": "Compacta digital com flash de festa: rosto estourado, fundo escuro, ruído de ISO alto.",
+    "en": "Digital compact with party flash: blown-out faces, dark background, high-ISO noise."
+   },
+   "badge": ""
+  },
+  {
+   "id": "olhopeixe",
+   "name": {
+    "pt": "Olho de Peixe",
+    "en": "Fisheye"
+   },
+   "category": "fisheye",
+   "kind": "photo",
+   "description": {
+    "pt": "Câmera olho de peixe 180°: imagem circular, distorção extrema, aberração cromática.",
+    "en": "180° fisheye camera: circular image, extreme distortion, chromatic aberration."
+   },
+   "badge": ""
+  },
+  {
+   "id": "noir400",
+   "name": {
+    "pt": "Noir 400",
+    "en": "Noir 400"
+   },
+   "category": "bw",
+   "kind": "photo",
+   "description": {
+    "pt": "Preto e branco ISO 400 puxado: grão marcante, contraste alto, pretos profundos.",
+    "en": "Pushed ISO 400 black and white: gritty grain, high contrast, deep blacks."
+   },
+   "badge": ""
+  },
+  {
+   "id": "prata100",
+   "name": {
+    "pt": "Prata 100",
+    "en": "Silver 100"
+   },
+   "category": "bw",
+   "kind": "photo",
+   "description": {
+    "pt": "Preto e branco de grão fino com tom quente de papel de fibra.",
+    "en": "Fine-grain black and white with the warm tone of fiber paper."
+   },
+   "badge": ""
+  },
+  {
+   "id": "super8",
+   "name": {
+    "pt": "Super 8",
+    "en": "Super 8"
+   },
+   "category": "video8",
+   "kind": "video",
+   "description": {
+    "pt": "Filme reversível 8 mm a 18 quadros/s: grão grande, tremor de quadro, cintilação, moldura arredondada.",
+    "en": "8mm reversal film at 18 fps: big grain, gate weave, flicker, rounded gate."
+   },
+   "badge": ""
+  },
+  {
+   "id": "dezesseis",
+   "name": {
+    "pt": "16 mm",
+    "en": "16 mm"
+   },
+   "category": "video16",
+   "kind": "video",
+   "description": {
+    "pt": "Filme 16 mm a 24 quadros/s: grão médio, leve oscilação, halation suave.",
+    "en": "16mm film at 24 fps: medium grain, slight weave, soft halation."
+   },
+   "badge": ""
+  },
+  {
+   "id": "vhs",
+   "name": {
+    "pt": "Fita VHS",
+    "en": "VHS Tape"
+   },
+   "category": "vhs",
+   "kind": "video",
+   "description": {
+    "pt": "Filmadora em fita VHS: cor borrada, instabilidade de linha, faixa de tracking, OSD de reprodução.",
+    "en": "VHS camcorder: smeared color, line instability, tracking band, playback OSD."
+   },
+   "badge": ""
+  },
+  {
+   "id": "dv2005",
+   "name": {
+    "pt": "Handycam DV",
+    "en": "DV Handycam"
+   },
+   "category": "dv",
+   "kind": "video",
+   "description": {
+    "pt": "Filmadora digital MiniDV: cores frias e saturadas, nitidez artificial, data e hora na tela.",
+    "en": "MiniDV digital camcorder: cool saturated colors, artificial sharpness, on-screen date and time."
+   },
+   "badge": ""
+  },
+  {
+   "id": "projetor",
+   "name": {
+    "pt": "Projetor de Slides",
+    "en": "Slide Projector"
+   },
+   "category": "projector",
+   "kind": "video",
+   "description": {
+    "pt": "Slide projetado: moldura de plástico, luz quente da lâmpada, centro mais claro, cintilação.",
+    "en": "Projected slide: plastic mount, warm lamp light, bright hotspot, flicker."
+   },
+   "badge": ""
+  },
+  {
+   "id": "cinema239",
+   "name": {
+    "pt": "Cinema 2.39",
+    "en": "Cinema 2.39"
+   },
+   "category": "cinema",
+   "kind": "video",
+   "description": {
+    "pt": "Negativo de cinema 35 mm em widescreen 2.39:1 a 24 quadros/s.",
+    "en": "35mm motion-picture negative in 2.39:1 widescreen at 24 fps."
+   },
+   "badge": ""
+  }
+ ]
+}

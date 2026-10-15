@@ -1,0 +1,340 @@
+{
+ "kind": "photo",
+ "description": {
+  "pt": "Filme de cinema tungstênio sem camada anti-halo: auréola vermelha nas luzes, sombras azul-petróleo.",
+  "en": "Tungsten motion-picture stock without anti-halation backing: red glow around lights, teal shadows."
+ },
+ "inspiration": "Características públicas de negativos cinematográficos ISO 500 balanceados para tungstênio, usados em still sem a camada remjet.",
+ "format": {
+  "aspect": [
+   3,
+   2
+  ],
+  "frame": "none",
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "frameColor": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "frameTexture": 0.0,
+  "frameShadow": 0.0,
+  "cornerRadius": 0.0,
+  "maxLongSide": 4096,
+  "sensorMegapixels": 0.0,
+  "multiShot": 1,
+  "forceAccessory": null
+ },
+ "capabilities": {
+  "doubleExposure": true,
+  "temperature": true,
+  "reprocess": true,
+  "flash": true,
+  "dateStamp": true,
+  "accessories": true
+ },
+ "optics": {
+  "recover": {
+   "knee": 0.5,
+   "strength": 0.55
+  },
+  "vignette": {
+   "amount": 0.25,
+   "radius": 1.1,
+   "mechanical": 0.0,
+   "mechanicalRadius": 1.2,
+   "center": [
+    0.0,
+    0.0
+   ]
+  },
+  "distortion": {
+   "k1": 0.0,
+   "k2": 0.0
+  },
+  "ca": 0.0,
+  "softness": {
+   "center": 0.0,
+   "edge": 0.0,
+   "start": 0.45,
+   "end": 1.0
+  },
+  "bloom": 0.05,
+  "glowSpread": 0.55,
+  "halation": {
+   "amount": 0.85,
+   "threshold": 0.7,
+   "color": [
+    1.0,
+    0.18,
+    0.05
+   ]
+  },
+  "smear": 0.0,
+  "sourceBoost": 4.0
+ },
+ "leaks": {
+  "chance": 0.08,
+  "count": [
+   1,
+   2
+  ],
+  "intensity": [
+   0.0,
+   1.5
+  ],
+  "palette": [
+   [
+    1.0,
+    0.45,
+    0.12
+   ],
+   [
+    1.0,
+    0.22,
+    0.06
+   ],
+   [
+    1.0,
+    0.68,
+    0.3
+   ]
+  ],
+  "size": [
+   0.25,
+   0.65
+  ]
+ },
+ "stamp": {
+  "defaultOn": false,
+  "color": [
+   1.0,
+   0.3,
+   0.05
+  ],
+  "intensity": 3.2,
+  "size": 0.034,
+  "margin": [
+   0.07,
+   0.06
+  ],
+  "format": "'yy M d"
+ },
+ "flash": {
+  "default": false,
+  "gain": 1.5,
+  "ambient": 0.55,
+  "radius": 0.6,
+  "color": [
+   1.0,
+   1.0,
+   1.0
+  ]
+ },
+ "finish": {
+  "sharpen": {
+   "amount": 0.0,
+   "radius": 1.0
+  },
+  "dust": {
+   "count": 0,
+   "size": 0.004,
+   "opacity": 0.6
+  },
+  "dustPolarity": 1,
+  "scratches": {
+   "count": 0,
+   "opacity": 0.3,
+   "width": 0.0012,
+   "drift": 0.002
+  },
+  "dither": 1.0
+ },
+ "video": {
+  "fps": 30,
+  "weave": 0.0,
+  "flicker": 0.0,
+  "drift": 0.0,
+  "vhs": null,
+  "osd": null
+ },
+ "id": "cine500t",
+ "order": 4,
+ "name": {
+  "pt": "Cine 500T",
+  "en": "Cine 500T"
+ },
+ "category": "film35",
+ "color": {
+  "model": "negative",
+  "mono": false,
+  "monoWeights": [
+   0.3,
+   0.59,
+   0.11
+  ],
+  "exposure": 0.3,
+  "saturation": 0.95,
+  "crosstalk": null,
+  "negative": {
+   "gamma": 0.6,
+   "gammaRGB": [
+    1.0,
+    1.0,
+    1.04
+   ],
+   "toe": -4.5,
+   "latitude": 12.0,
+   "toeRGB": [
+    0.3,
+    0.0,
+    -0.25
+   ],
+   "shoulderRGB": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "toeSoft": 1.0,
+   "shoulderSoft": 1.5,
+   "interlayer": 0.12
+  },
+  "print": {
+   "gamma": 2.05,
+   "dmin": 0.06,
+   "dmax": 2.1,
+   "toeSoft": 0.22,
+   "shoulderSoft": 0.28,
+   "midGrey": 0.19,
+   "balance": [
+    -0.08,
+    0.0,
+    0.12
+   ],
+   "gammaRGB": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "positive": {
+   "gamma": 1.5,
+   "gammaRGB": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "dmin": 0.08,
+   "dmax": 3.0,
+   "toeSoft": 0.7,
+   "shoulderSoft": 0.6,
+   "offsetRGB": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "midGrey": 0.18,
+   "balance": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "interlayer": 0.1
+  },
+  "digital": {
+   "clip": 1.0,
+   "knee": 0.03,
+   "contrast": 1.25,
+   "pivot": 0.42,
+   "black": 0.02,
+   "midGrey": 0.19,
+   "balance": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "measured": {
+   "cube": null
+  },
+  "look": {
+   "saturation": 1.0,
+   "vibrance": 0.0,
+   "selective": [
+    {
+     "hue": 60,
+     "width": 30,
+     "hueShift": -4,
+     "sat": 1.05
+    },
+    {
+     "hue": 200,
+     "width": 45,
+     "hueShift": -12,
+     "sat": 1.1
+    }
+   ],
+   "splitTone": {
+    "shadows": [
+     0.9,
+     1.02,
+     1.08
+    ],
+    "highlights": [
+     1.05,
+     1.0,
+     0.94
+    ],
+    "strength": 0.6,
+    "balance": 0.0
+   },
+   "fade": 0.0,
+   "white": 1.0,
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "inputMatrix": [
+   [
+    0.96063,
+    0.03576000000000003,
+    0.0036100000000000034
+   ],
+   [
+    0.01063000000000001,
+    0.98576,
+    0.0036100000000000034
+   ],
+   [
+    0.01063000000000001,
+    0.03576000000000003,
+    0.95361
+   ]
+  ]
+ },
+ "grain": {
+  "model": "film",
+  "amount": 1.0,
+  "rms": 0.036,
+  "selwyn": 0.5,
+  "shot": 0.004,
+  "read": 0.004,
+  "size": 0.00065,
+  "chroma": 0.45,
+  "rgb": [
+   1.0,
+   1.0,
+   1.15
+  ],
+  "texture": "film",
+  "maxSigma": 1.5
+ },
+ "lut": "cine500t.elut"
+}
