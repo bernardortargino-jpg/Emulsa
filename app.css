@@ -76,3 +76,11 @@ svg { width: 22px; height: 22px; stroke: currentColor; fill: none; stroke-width:
 .tabs { display: flex; justify-content: center; gap: 6px; padding: 8px 0 4px; }
 .note { color: var(--muted); font-size: 13px; padding: 0 16px; }
 .banner { margin: 8px 16px; padding: 10px 12px; border-radius: 12px; background: var(--surface2); font-size: 13px; }
+/* Safari shrinks flex children of scrolling columns instead of scrolling them, which made
+   the editor's sliders and option rows overlap on iPhone. Keep every item at its own height. */
+.panel > *, #sheet-body > .tabs, #sheet-body > .panel, #sheet-body > .note, #sheet-body > .grid, .slider, .slider > * { flex-shrink: 0; }
+.panel { -webkit-overflow-scrolling: touch; overscroll-behavior: contain; gap: 12px; }
+.slider { min-height: 52px; align-content: start; }
+.slider input { height: 28px; margin: 0; }
+.panel .row { min-height: 40px; align-items: center; }
+.panel .row .cam { min-height: 96px; }
