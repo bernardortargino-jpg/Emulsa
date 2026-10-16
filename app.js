@@ -679,7 +679,13 @@ async function boot() {
   setThumb(shots[0]?.thumb);
   requestAnimationFrame(frame);
   await startCamera();
-  if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
+  if ('serviceWorker' in navigator) {
+    // a new version installs in the background; reload once so it is used right away
+    const had = !!navigator.serviceWorker.controller;
+    let reloaded = false;
+    navigator.serviceWorker.addEventListener('controllerchange', () => { if (had && !reloaded && !recorder) { reloaded = true; location.reload(); } });
+    navigator.serviceWorker.register('sw.js').then((r) => r.update()).catch(() => {});
+  }
   if (navigator.storage?.persist) navigator.storage.persist().catch(() => {});
 }
 boot();
