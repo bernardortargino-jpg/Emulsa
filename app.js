@@ -589,6 +589,7 @@ function openAbout() {
   const wrap = document.createElement('div'); wrap.className = 'panel'; wrap.style.maxHeight = 'none';
   wrap.innerHTML = `
     ${standalone ? '' : `<div class="banner">${t('<b>Instale na tela de início:</b> no Safari, toque em Compartilhar ⬆ e depois em "Adicionar à Tela de Início". Assim o Emulsa abre como app e funciona offline.', '<b>Install on your home screen:</b> in Safari tap Share ⬆, then "Add to Home Screen". Emulsa then opens like an app and works offline.')}</div>`}
+    ${/android/i.test(navigator.userAgent) ? `<div class="banner">${t('<b>Android:</b> há também um app nativo (câmera em resolução máxima, flash real e controles manuais). <a href="emulsa.apk" style="color:var(--amber)">Baixar APK</a> e permitir "instalar apps desconhecidos".', '<b>Android:</b> there is also a native app (full-resolution camera, real flash, manual controls). <a href="emulsa.apk" style="color:var(--amber)">Download APK</a> and allow "install unknown apps".')}</div>` : ''}
     <div class="label">${t('Qualidade', 'Quality')}</div>
     <div class="row" id="q-row"></div>
     <div class="label">${t('Câmera frontal', 'Front camera')}</div>

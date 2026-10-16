@@ -1,7 +1,12 @@
-# Emulsa — câmera retrô no navegador
+# Emulsa — câmera retrô
 
-Abra **https://bernardortargino-jpg.github.io/emulsa/** no Safari do iPhone e toque em
-**Compartilhar ⬆ → Adicionar à Tela de Início**. Abre como app, funciona offline e as fotos
-são reveladas no próprio aparelho (nada é enviado).
+**iPhone e Android (versão web):** abra **https://bernardortargino-jpg.github.io/Emulsa/** e
+adicione à tela de início (Safari: Compartilhar ⬆ → Adicionar à Tela de Início; Chrome: ⋮ →
+Instalar app). Funciona offline; as fotos são reveladas no aparelho (nada é enviado).
 
-Este repositório contém só o app web gerado. O código-fonte do projeto fica em outro repositório.
+**Android (app nativo, Android 10+):** baixe
+**https://bernardortargino-jpg.github.io/Emulsa/emulsa.apk**, abra o arquivo e permita
+"instalar apps desconhecidos". Instala para sempre, sem loja e sem custo. Build de depuração
+assinado com chave própria (certificado SHA-256 `3f86eb45…ad1e`).
+
+Este repositório contém só os arquivos publicados; o código-fonte fica em outro repositório.
